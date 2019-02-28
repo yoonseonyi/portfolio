@@ -1,3 +1,9 @@
+.background-photo{
+  background-image: url("images/YoonSeon_Yi.png");
+  background-color: #cccccc;
+  width: 100%;
+}
+
 nav {
     margin:0;
     padding:0;
@@ -107,10 +113,6 @@ h1 {
 .main_img{
     width: 100%;
     height:auto;
-}
-
-.background{
-  background-image: url("images/keyboard_main.jpg");
 }
 
 .profile{
