@@ -35,10 +35,20 @@ h1 {
   padding: 8px;
   z-index: 100;
   border-bottom-right-radius: 8px;
+  overflow:hidden;
 }
 
 .skip:focus {
   top: 0;
+}
+
+.skip a:link {
+  color: black;
+}
+
+.reveal a:active,
+.reveal a:focus {
+  background: white;
 }
 
 
