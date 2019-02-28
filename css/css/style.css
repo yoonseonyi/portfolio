@@ -1,0 +1,108 @@
+nav {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    width: 100%;
+
+}
+
+nav a {
+    float: left;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar a:hover {
+  color: #718daa;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.45em;
+
+}
+
+.logo a,
+.navbar a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  display: block;
+
+}
+
+.header {
+  padding-top: .5em;
+  padding-bottom: 0.5em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+h1 {
+    font-size: 27px;
+    color: #555;
+    text-align: center;
+}
+
+.skiptocontent {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+}
+
+a.skiptocontent:active, 
+a.tocontent:focus, 
+a.skiptocontent:hover {
+    left: 0; 
+    top: 0;
+    width: auto; 
+    height: auto; 
+    overflow: visible;
+}
+
+.content_img{
+    width: 100%;
+    height: auto;
+}
+
+.main_img{
+    width: 100%;
+    height:auto;
+}
+
+.background{
+  background-image: url("images/keyboard_main.jpg");
+}
+
+.profile{
+    width: 50%;
+}
