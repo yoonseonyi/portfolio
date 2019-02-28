@@ -26,7 +26,7 @@ h1 {
   align-content: stretch;
 }
 
-a.skip {
+.skip {
     left:-999px;
     position:absolute;
     top:auto;
@@ -35,7 +35,7 @@ a.skip {
     overflow:hidden;
     z-index:-999;
 }
-a.skip:focus, a.skip:active {
+.skip:focus, .skip:active {
     color: #fff;
     background-color:#000;
     left: auto;
