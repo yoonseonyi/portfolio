@@ -51,13 +51,13 @@ h1 {
     font-size:1.2em;
     z-index:999;
 
+}
 
 div {
   padding: 3px;
   border: 1px;
   margin: 0;
 }
-
  
 .footer {
    bottom:0;
