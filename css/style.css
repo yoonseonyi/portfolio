@@ -17,6 +17,32 @@ nav a {
     padding-left: 10px;
   }
 
+.skip {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+.skip:focus, .skip:active {
+    color: #fff;
+    background-color:#000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    border-radius: 15px;
+    border:4px solid yellow;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+
+
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -69,26 +95,6 @@ h1 {
     text-align: center;
 }
 
-.skiptocontent {
-    position: absolute;
-    top: -1000px;
-    left: -1000px;
-    height: 1px;
-    width: 1px;
-    text-align: left;
-    overflow: hidden;
-}
-
-a.skiptocontent:active, 
-a.tocontent:focus, 
-a.skiptocontent:hover {
-    left: 0; 
-    top: 0;
-    width: auto; 
-    height: auto; 
-    overflow: visible;
-}
-
 .content_img{
     width: 100%;
     height: auto;
@@ -105,4 +111,13 @@ a.skiptocontent:hover {
 
 .profile{
     width: 50%;
+}
+
+.h {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.subh {
+  font-weight: 500;
 }
