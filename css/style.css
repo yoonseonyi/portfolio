@@ -3,11 +3,45 @@ nav {
     padding:0;
     font-size:100%;
     vertical-align:baseline;
-    background:#555;
+    width: 100%;
+
 }
 
 nav a {
-    color: yellow;
+    float: left;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar a:hover {
+  color: #718daa;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.45em;
+
+}
+
+.logo a,
+.navbar a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  display: block;
+
+}
+
+.header {
+  padding-top: .5em;
+  padding-bottom: 0.5em;
 }
 
 ul {
@@ -63,6 +97,10 @@ a.skiptocontent:hover {
 .main_img{
     width: 100%;
     height:auto;
+}
+
+.background{
+  background-image: url("images/keyboard_main.jpg");
 }
 
 .profile{
