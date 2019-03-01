@@ -1,9 +1,15 @@
-.background-photo{
-  background-image: url("images/YoonSeon_Yi.png");
+/*div .background_photo{
+  background-image: url("../images/main_website.jpg");
   background-color: #cccccc;
-  width: 100%;
-}
+  width: 100px;
+  height: 100px;
 
+}*/
+/*
+body{
+  background-image: url("../images/main_website.jpg");
+}
+*/
 nav {
     margin:0;
     padding:0;
@@ -126,4 +132,14 @@ h1 {
 
 .subh {
   font-weight: 500;
+}
+
+
+footer {
+  background-image: url("../images/background.png");
+  /*background-image: url("../images/YoonSeon_Yi.png");*/
+  background-color: pink;
+  width: 100%;
+  height: 20px;
+
 }
